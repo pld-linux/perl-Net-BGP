@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	BGP
+%define		pdir	Net
+%define		pnam	BGP
 Summary:	Net::BGP - Border Gateway Protocol version 4 speaker/listener library
 Summary(pl):	Net::BGP - biblioteka obs³uguj±ca Border Gateway Protocol w wersji 4
 Name:		perl-Net-BGP
