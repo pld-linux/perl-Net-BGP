@@ -8,13 +8,13 @@
 Summary:	Net::BGP - Border Gateway Protocol version 4 speaker/listener library
 Summary(pl):	Net::BGP - biblioteka obs³uguj±ca Border Gateway Protocol w wersji 4
 Name:		perl-Net-BGP
-Version:	0.07
+Version:	0.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	65d8da8512f9b886aa85d6422eaec874
+# Source0-md5:	946d056bd3db24a44b48d8538f8b5dc3
 %if %{with tests}
 BuildRequires:	perl(List::Util) >= 1.01
 BuildRequires:	perl-Test-Harness >= 2.00
