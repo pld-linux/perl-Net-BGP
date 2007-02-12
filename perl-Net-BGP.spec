@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	BGP
 Summary:	Net::BGP - Border Gateway Protocol version 4 speaker/listener library
-Summary(pl):	Net::BGP - biblioteka obs³uguj±ca Border Gateway Protocol w wersji 4
+Summary(pl.UTF-8):   Net::BGP - biblioteka obsÅ‚ugujÄ…ca Border Gateway Protocol w wersji 4
 Name:		perl-Net-BGP
 Version:	0.08
 Release:	2
@@ -37,17 +37,17 @@ Base) nor does it modify the kernel routing table of the host system.
 However, such operations could be implemented using the API provided
 by the module.
 
-%description -l pl
-Ten modu³ jest implementacj± protoko³u routingu miêdzydomenowego
-BGP-4. Zawiera on ca³± funkcjonalno¶æ potrzebn± do ustanowienia i
-zarz±dzania sesj± BGP oraz wymiany informacji o uaktualnieniach
-routingu z drug± stron±. Celem jest dostarczenie prostego API do
-protoko³u BGP do celów automatyzacji, logowania, monitorowania,
-testowania i podobnych zadañ z u¿yciem potêgi i elastyczno¶ci Perla.
-Modu³ nie zawiera implementacji RIB (Routing Information Base) ani
-nie modyfikuje tablicy routingu w j±drze systemu, jednak takie
-operacje mog± byæ zaimplementowane przy u¿yciu API dostarczonego
-przez ten modu³.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest implementacjÄ… protokoÅ‚u routingu miÄ™dzydomenowego
+BGP-4. Zawiera on caÅ‚Ä… funkcjonalnoÅ›Ä‡ potrzebnÄ… do ustanowienia i
+zarzÄ…dzania sesjÄ… BGP oraz wymiany informacji o uaktualnieniach
+routingu z drugÄ… stronÄ…. Celem jest dostarczenie prostego API do
+protokoÅ‚u BGP do celÃ³w automatyzacji, logowania, monitorowania,
+testowania i podobnych zadaÅ„ z uÅ¼yciem potÄ™gi i elastycznoÅ›ci Perla.
+ModuÅ‚ nie zawiera implementacji RIB (Routing Information Base) ani
+nie modyfikuje tablicy routingu w jÄ…drze systemu, jednak takie
+operacje mogÄ… byÄ‡ zaimplementowane przy uÅ¼yciu API dostarczonego
+przez ten moduÅ‚.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
