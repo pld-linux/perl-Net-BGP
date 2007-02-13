@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	BGP
 Summary:	Net::BGP - Border Gateway Protocol version 4 speaker/listener library
-Summary(pl.UTF-8):   Net::BGP - biblioteka obsługująca Border Gateway Protocol w wersji 4
+Summary(pl.UTF-8):	Net::BGP - biblioteka obsługująca Border Gateway Protocol w wersji 4
 Name:		perl-Net-BGP
 Version:	0.08
 Release:	2
